@@ -9,7 +9,13 @@ The project is implemented primarily in Python using three main libraries. PyBul
 
 Overall, Robotic Fruit Sorter demonstrates how the integration of computer vision, robotics, and intelligent motion planning can automate repetitive agricultural tasks. Although implemented as a simulation, the project illustrates concepts widely used in industrial automation and highlights the potential of AI-powered robotic systems to improve efficiency, reduce labor requirements, and support more sustainable agricultural practices.
 
+## Video of presentation
 THE FOLLOWING LINK IS A DEMO:
-https://drive.google.com/file/d/1-b0cYhHx5WqcKGk5Lf_d009ta3fxK01n/view?resourcekey
+[Video of the Presentation](./RobotSimulation.mp4)
 
 The specific robotic arm was the final project for that Stanford AI4ALL Summer Program 2026 and specificely the Robotics cohort. We hope you liked it!
+
+## Running the project
+- Go to `Code`
+- Install Dependencies with `uv sync` or `pip install -r requirements.txt`
+- Run the `robotic_fruit_sorter_final.py`

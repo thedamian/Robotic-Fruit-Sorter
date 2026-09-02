@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot name="fruit_sorting_plane">
+
+  <!--
+    Self-contained ground plane for a fruit-sorting robot simulation.
+
+    The box is 20 m x 20 m and 0.02 m thick.
+    Its center is at z = -0.01 m, so the TOP surface is exactly z = 0.
+    Load it as a fixed base in your simulator.
+  -->
+
+  <link name="ground">
+
+    <visual>
+      <origin xyz="0 0 -0.01" rpy="0 0 0"/>
+      <geometry>
+        <box size="20 20 0.02"/>
+      </geometry>
+      <material name="light_gray">
+        <color rgba="0.82 0.82 0.82 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 -0.01" rpy="0 0 0"/>
+      <geometry>
+        <box size="20 20 0.02"/>
+      </geometry>
+    </collision>
+
+  </link>
+
+</robot>
